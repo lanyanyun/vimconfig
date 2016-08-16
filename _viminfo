@@ -11,16 +11,18 @@
 ~MSle0/^.*\/
 
 # Last Substitute Search Pattern:
-~MSle0~&^.*\/
+~MSle0~&>
 
 # Last Substitute String:
-$
+$> 
 
 # Command Line History (newest to oldest):
 :wq
+:%s/>/> /
+:%s/\>/\> /
+:MRU
 :%s/^.*\///
 :%s/'/
-:MRU
 :q
 :e D:/HOME/_vimrc
 :w
@@ -65,10 +67,10 @@ $
 :help NERDTree
 :help UltiSnips
 :set ultisnips
-:help syntax
-:echo ~
 
 # Search String History (newest to oldest):
+? >
+? \>
 ? ^.*\/
 ?/^.*\/
 ? '
@@ -117,7 +119,6 @@ $
 ?/tr>
 ?/file
 ??9game
-??60
 
 # Expression History (newest to oldest):
 
@@ -159,29 +160,29 @@ $
 "q	CHAR	0
 	Qq
 ""-	CHAR	0
-	m
+	 
 
 # 文件标记:
-'0  15  0  ~\README.md
-'1  2  0  ~/_vimrc
-'2  24  10  ~\vimfiles\UltiSnips\all.snippets
-'3  1  0  ~\vimconfig\README.md
-'4  1  0  ~\README.md
-'5  1  0  ~\.gitconfig
-'6  25  0  ~\.ssh\id_rsa
-'7  1  0  E:\HOME\.gitconfig
-'8  13  4  C:\Users\Jacky\Desktop\1.py
-'9  15  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+'0  9  0  ~\README.md
+'1  17  0  ~\README.md
+'2  2  0  ~/_vimrc
+'3  24  10  ~\vimfiles\UltiSnips\all.snippets
+'4  1  0  ~\vimconfig\README.md
+'5  1  0  ~\README.md
+'6  1  0  ~\.gitconfig
+'7  25  0  ~\.ssh\id_rsa
+'8  1  0  E:\HOME\.gitconfig
+'9  13  4  C:\Users\Jacky\Desktop\1.py
 
 # 跳转列表 (从新到旧):
--'  15  0  ~\README.md
--'  10  0  ~\README.md
--'  9  1  ~\README.md
+-'  9  0  ~\README.md
 -'  1  0  ~\README.md
+-'  17  0  ~\README.md
+-'  11  1  ~\README.md
 -'  2  0  ~/_vimrc
 -'  59  0  ~/_vimrc
 -'  4  0  ~\README.md
--'  16  1  ~\README.md
+-'  18  1  ~\README.md
 -'  24  10  ~\vimfiles\UltiSnips\all.snippets
 -'  1  0  ~\vimconfig\README.md
 -'  1  0  ~\.gitconfig
@@ -266,13 +267,14 @@ $
 -'  24  10  ~\vimfiles\UltiSnips\all.snippets
 -'  1  0  ~\vimconfig\README.md
 -'  1  0  ~\.gitconfig
+-'  15  0  ~\README.md
 
 # 文件内的标记历史记录 (从新到旧):
 
 > ~\README.md
-	"	15	0
-	^	15	1
-	.	15	0
+	"	9	0
+	^	9	0
+	.	9	0
 	+	1	15
 	+	2	0
 	+	2	18
@@ -281,69 +283,77 @@ $
 	+	2	9
 	+	3	24
 	+	4	33
-	+	16	0
-	+	5	8
-	+	6	3
+	+	18	0
+	+	6	8
+	+	7	3
 	+	4	0
-	+	6	3
-	+	7	30
+	+	7	3
+	+	8	30
 	+	2	0
-	+	5	0
-	+	9	0
-	+	9	1
-	+	13	7
-	+	15	2
-	+	10	0
+	+	6	0
 	+	11	0
-	+	12	0
+	+	11	1
+	+	15	7
+	+	17	2
+	+	11	11
 	+	13	0
 	+	14	0
 	+	15	0
+	+	16	0
+	+	17	0
+	+	5	0
+	+	6	2
+	+	10	4
+	+	11	0
+	+	1	0
+	+	11	0
+	+	9	0
 
 > C:\Users\Jacky\Desktop\__MRU_Files__
-	"	2	0
+	"	1	0
 	.	17	0
+	+	390	0
+	+	390	0
+	+	385	0
+	+	381	0
 	+	375	0
-	+	375	0
-	+	370	0
-	+	366	0
-	+	360	0
-	+	352	0
-	+	344	0
-	+	336	0
-	+	327	0
-	+	315	0
-	+	303	0
-	+	291	0
-	+	279	0
-	+	267	0
-	+	255	0
-	+	243	0
-	+	231	0
-	+	219	0
-	+	207	0
-	+	195	0
-	+	183	0
-	+	171	0
-	+	159	0
-	+	147	0
-	+	135	0
-	+	123	0
-	+	111	0
-	+	99	0
-	+	87	0
-	+	75	0
-	+	63	0
-	+	50	0
-	+	49	0
-	+	49	0
-	+	47	0
-	+	45	0
-	+	41	0
-	+	37	0
-	+	33	0
-	+	29	0
-	+	23	0
+	+	367	0
+	+	359	0
+	+	351	0
+	+	342	0
+	+	330	0
+	+	318	0
+	+	306	0
+	+	294	0
+	+	282	0
+	+	270	0
+	+	258	0
+	+	246	0
+	+	234	0
+	+	222	0
+	+	210	0
+	+	198	0
+	+	186	0
+	+	174	0
+	+	162	0
+	+	150	0
+	+	138	0
+	+	126	0
+	+	114	0
+	+	102	0
+	+	90	0
+	+	78	0
+	+	65	0
+	+	64	0
+	+	64	0
+	+	62	0
+	+	60	0
+	+	56	0
+	+	52	0
+	+	48	0
+	+	44	0
+	+	38	0
+	+	32	0
 	+	17	0
 
 > ~/_vimrc
