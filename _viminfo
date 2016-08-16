@@ -151,18 +151,19 @@ $\#
 	 
 
 # 文件标记:
-'0  1  0  ~\vimconfig\README.md
-'1  1  0  ~\README.md
-'2  1  0  ~\.gitconfig
-'3  25  0  ~\.ssh\id_rsa
-'4  1  0  E:\HOME\.gitconfig
-'5  13  4  C:\Users\Jacky\Desktop\1.py
-'6  15  0  D:\Documents\Doc\Python\whatsnewin9game2.py
-'7  18  6  C:\Users\Jacky\Desktop\9game.html
-'8  5  1  C:\Users\Jacky\Desktop\1.txt
-'9  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+'0  24  10  ~\vimfiles\UltiSnips\all.snippets
+'1  1  0  ~\vimconfig\README.md
+'2  1  0  ~\README.md
+'3  1  0  ~\.gitconfig
+'4  25  0  ~\.ssh\id_rsa
+'5  1  0  E:\HOME\.gitconfig
+'6  13  4  C:\Users\Jacky\Desktop\1.py
+'7  15  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+'8  18  6  C:\Users\Jacky\Desktop\9game.html
+'9  5  1  C:\Users\Jacky\Desktop\1.txt
 
 # 跳转列表 (从新到旧):
+-'  24  10  ~\vimfiles\UltiSnips\all.snippets
 -'  1  0  ~\vimconfig\README.md
 -'  1  0  ~\README.md
 -'  1  0  ~\.gitconfig
@@ -261,9 +262,23 @@ $\#
 -'  113  0  C:\Program Files (x86)\Vim\vim74\doc\usr_21.txt
 -'  18  6  C:\Users\Jacky\Desktop\9game.html
 -'  12  1  C:\Users\Jacky\Desktop\9game.html
--'  19  10  C:\Users\Jacky\Desktop\9game.html
 
 # 文件内的标记历史记录 (从新到旧):
+
+> ~\vimfiles\UltiSnips\all.snippets
+	"	24	10
+	^	24	11
+	.	24	10
+	+	19	11
+	+	21	0
+	+	20	17
+	+	26	0
+	+	23	0
+	+	24	0
+	+	22	0
+	+	23	12
+	+	24	10
+	d	23	8
 
 > ~\vimconfig\README.md
 	"	1	0
@@ -960,21 +975,6 @@ $\#
 
 > D:\Documents\Doc\Personal\icbc.txt
 	"	1	0
-
-> ~\vimfiles\UltiSnips\all.snippets
-	"	24	10
-	^	24	11
-	.	24	10
-	+	19	11
-	+	21	0
-	+	20	17
-	+	26	0
-	+	23	0
-	+	24	0
-	+	22	0
-	+	23	12
-	+	24	10
-	d	23	8
 
 > C:\Users\Jacky\Desktop\test1.py
 	"	6	13
