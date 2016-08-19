@@ -8,28 +8,43 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/^.*\/
+~MSle0~/date
 
 # Last Substitute Search Pattern:
-~MSle0~&> 
+~MSle0&date
 
 # Last Substitute String:
-$. 
+$datetime
 
 # Command Line History (newest to oldest):
-:wq
-:%s/> /. /gc
+:e 1.py
+:w
+:q
+:e UltiSnips
 :MRU
+:set fileencoding
+:%s/date/datetime/
+:s/date/datetime
+:w 1.py
+:1
+:e D:\HOME\vimfiles\ultisnips\all.snippets
+:e ptbus.py
+:w ptbus.py
+:wq
+:9,24 m 3
+:e 
+:encode
+:help request
+:%s/requests/urllib2/gc
+:e 9game.html
+:%s/> /. /gc
 :%s/>/> /
 :%s/\>/\> /
 :%s/^.*\///
 :%s/'/
-:q
 :e D:/HOME/_vimrc
-:w
 :v $HOME/_vimrc
 :e $HOME/README.md
-:w 1.py
 :mru
 :%s/\d、/\#/gc
 :5@a
@@ -42,7 +57,6 @@ $.
 :q!
 :e 夜神模拟器.lnk
 :tabedit 9game.html
-:e 9game.html
 :command
 :read !date
 :s/Rio/RIO
@@ -53,22 +67,15 @@ $.
 :scriptnames
 :%!xxd -r
 :tabedit 1.htm
-:newtab
-:e $MYVIMRC
-:help %<
-:help
-:!dir "%"
-:!ls "%"
-:r 9game.html
-:echo %
-:help >%
-:help %
-:help :number@cn
-:help :number@en
-:help NERDTree
-:help UltiSnips
 
 # Search String History (newest to oldest):
+?/while
+? date
+?/bl
+?/bliv
+?/comment
+?/comm
+? requests
 ? > 
 ? >
 ? \>
@@ -112,13 +119,6 @@ $.
 ??center
 ?/find
 ??bookmark
-??disk
-?/pyth
-?/h2
-?/h3
-?/h1
-?/tr>
-?/file
 
 # Expression History (newest to oldest):
 
@@ -129,49 +129,104 @@ $.
 
 # 寄存器:
 "0	LINE	0
-	2. 将`_vimrc`更名为`.vimrc`
-"1	BLOCK	5
-	Plug '
-	Plug '
-	Plug '
-	Plug '
-	Plug '
+	    return s[0].upper()+ s[1:].lower()
+""1	LINE	0
+	
+	snippet myname
+	Jacky
+	jacky@downjoy.com
+	endsnippet
+	
+	snippet myadd
+	四川省成都市高新区天府大道南段325号远大一期
+	endsnippet
+	
+	snippet myid
+	610328198105072418
+	endsnippet
+	
+	snippet mytel 
+	18084862376
+	endsnippet
 "2	LINE	0
-	我的Vim配置文件备份 2016-8-16
+	snippet code
+	import sys
+	reload(sys)
+	sys.setdefaultencoding('utf8')
+	endsnippet
 "3	LINE	0
+	import sys
 	
+	reload(sys)
+	sys.setdefaultencoding('utf8')
 "4	LINE	0
-	
+	print 'adam'[1:].lower()
 "5	LINE	0
-	
+	print 'adam'[0].upper()
 "6	LINE	0
-	
+	print format_name('adam')
 "7	LINE	0
-	任务栏最多可以同时接受三个任务、点击任务会有前往任务地图完成以及放弃任务。
+	    s[0].upper()+ s[1:].lower()
 "8	LINE	0
-	
+	        print i.upper()
 "9	LINE	0
-	@a
+	            pass
 "a@	CHAR	0
 	0i    jj
 "q	CHAR	0
 	Qq
-""-	CHAR	0
-	vimrc
+"-	CHAR	0
+	s
 
 # 文件标记:
-'0  12  0  ~\README.md
-'1  10  0  ~\README.md
-'2  18  0  ~\README.md
-'3  2  0  ~/_vimrc
-'4  24  10  ~\vimfiles\UltiSnips\all.snippets
-'5  1  0  ~\vimconfig\README.md
-'6  1  0  ~\README.md
-'7  1  0  ~\.gitconfig
-'8  25  0  ~\.ssh\id_rsa
-'9  1  0  E:\HOME\.gitconfig
+'0  3  3  C:\Users\Jacky\Desktop\1.py
+'1  9  0  ~\vimfiles\UltiSnips\python.snippets
+'2  26  0  ~\vimfiles\UltiSnips\all.snippets
+'3  1  0  C:\Users\Jacky\Desktop\UltiSnips
+'4  14  4  C:\Users\Jacky\Desktop\1.py
+'5  34  0  C:\Users\Jacky\Desktop\NERD_tree_1
+'6  1  0  C:\Windows\System32\drivers\etc\hosts
+'7  26  31  D:\Documents\Doc\Python\ptbus.py
+'8  34  0  C:\Users\Jacky\Desktop\NERD_tree_1
+'9  1  0  C:\Windows\System32\drivers\etc\hosts
 
 # 跳转列表 (从新到旧):
+-'  3  3  C:\Users\Jacky\Desktop\1.py
+-'  1  0  C:\Users\Jacky\Desktop\1.py
+-'  9  0  ~\vimfiles\UltiSnips\python.snippets
+-'  1  0  ~\vimfiles\UltiSnips\python.snippets
+-'  26  0  ~\vimfiles\UltiSnips\all.snippets
+-'  1  0  ~\vimfiles\UltiSnips\all.snippets
+-'  1  0  C:\Users\Jacky\Desktop\UltiSnips
+-'  15  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+-'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+-'  7  0  C:\Users\Jacky\Desktop\1.py
+-'  5  11  C:\Users\Jacky\Desktop\1.py
+-'  8  3  C:\Users\Jacky\Desktop\1.py
+-'  14  4  C:\Users\Jacky\Desktop\1.py
+-'  15  0  C:\Users\Jacky\Desktop\1.py
+-'  10  0  C:\Users\Jacky\Desktop\1.py
+-'  34  0  C:\Users\Jacky\Desktop\NERD_tree_1
+-'  63  2  C:\Users\Jacky\Desktop\NERD_tree_1
+-'  1  0  C:\Users\Jacky\Desktop\NERD_tree_1
+-'  27  7  ~\vimfiles\UltiSnips\all.snippets
+-'  22  0  ~\vimfiles\UltiSnips\all.snippets
+-'  26  0  D:\Documents\Doc\Python\getBlibliComments.py
+-'  1  0  D:\Documents\Doc\Python\getBlibliComments.py
+-'  1  0  C:\Windows\System32\drivers\etc\hosts
+-'  26  31  D:\Documents\Doc\Python\ptbus.py
+-'  24  18  D:\Documents\Doc\Python\ptbus.py
+-'  29  7  D:\Documents\Doc\Python\ptbus.py
+-'  28  15  D:\Documents\Doc\Python\ptbus.py
+-'  30  4  D:\Documents\Doc\Python\ptbus.py
+-'  1  0  D:\Documents\Doc\Python\ptbus.py
+-'  12  0  D:\Documents\Doc\Python\ptbus.py
+-'  146  0  C:\Users\Jacky\Desktop\NERD_tree_1
+-'  153  2  C:\Users\Jacky\Desktop\NERD_tree_1
+-'  3  0  C:\Users\Jacky\Desktop\9game.html
+-'  1  0  C:\Users\Jacky\Desktop\9game.html
+-'  18  1  C:\Users\Jacky\Desktop\9game.html
+-'  7  0  C:\Users\Jacky\Desktop\9game.html
 -'  12  0  ~\README.md
 -'  13  0  ~\README.md
 -'  14  0  ~\README.md
@@ -189,18 +244,9 @@ $.
 -'  25  0  ~\.ssh\id_rsa
 -'  1  0  ~\.ssh\id_rsa
 -'  1  0  E:\HOME\.gitconfig
--'  13  4  C:\Users\Jacky\Desktop\1.py
--'  8  7  C:\Users\Jacky\Desktop\1.py
--'  3  3  C:\Users\Jacky\Desktop\1.py
--'  2  12  C:\Users\Jacky\Desktop\1.py
--'  1  4  C:\Users\Jacky\Desktop\1.py
--'  15  0  D:\Documents\Doc\Python\whatsnewin9game2.py
--'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
--'  18  6  C:\Users\Jacky\Desktop\9game.html
 -'  12  1  C:\Users\Jacky\Desktop\9game.html
 -'  19  10  C:\Users\Jacky\Desktop\9game.html
 -'  21  0  C:\Users\Jacky\Desktop\9game.html
--'  1  0  C:\Users\Jacky\Desktop\9game.html
 -'  13  0  C:\Users\Jacky\Desktop\9game.html
 -'  16  0  C:\Users\Jacky\Desktop\9game.html
 -'  5  1  C:\Users\Jacky\Desktop\1.txt
@@ -214,228 +260,172 @@ $.
 -'  1  0  ~/_vimrc
 -'  12  0  ~/_vimrc
 -'  2  0  C:\Users\Jacky\Desktop\9game.html
--'  3  10  C:\Users\Jacky\Desktop\9game.html
 -'  20  0  C:\Users\Jacky\Desktop\9game.html
 -'  101  0  ~\vimfiles\plugged\nerdtree\doc\NERD_tree.txt
 -'  55  0  ~\vimfiles\plugged\ultisnips\doc\UltiSnips.txt
--'  66  10  C:\Program Files (x86)\Vim\vimfiles\doc\syntax.cnx
--'  47  0  C:\Program Files (x86)\Vim\vimfiles\doc\help.cnx
--'  1  0  C:\Program Files (x86)\Vim\vimfiles\doc\help.cnx
--'  53  0  C:\Program Files (x86)\vimcdoc\INSTALL
--'  1  0  C:\Program Files (x86)\vimcdoc\INSTALL
--'  5161  38  C:\Program Files (x86)\Vim\vim74\doc\eval.txt
--'  113  0  C:\Program Files (x86)\Vim\vim74\doc\usr_21.txt
--'  18  6  C:\Users\Jacky\Desktop\9game.html
--'  12  1  C:\Users\Jacky\Desktop\9game.html
--'  19  10  C:\Users\Jacky\Desktop\9game.html
--'  21  0  C:\Users\Jacky\Desktop\9game.html
+-'  3  0  C:\Users\Jacky\Desktop\9game.html
 -'  1  0  C:\Users\Jacky\Desktop\9game.html
--'  13  0  C:\Users\Jacky\Desktop\9game.html
--'  16  0  C:\Users\Jacky\Desktop\9game.html
--'  5  1  C:\Users\Jacky\Desktop\1.txt
--'  10  7  C:\Users\Jacky\Desktop\1.txt
--'  1  0  C:\Users\Jacky\Desktop\1.txt
--'  19  0  C:\Users\Jacky\Desktop\1.txt
--'  2  0  C:\Users\Jacky\Desktop\9game.html
--'  3  10  C:\Users\Jacky\Desktop\9game.html
--'  20  0  C:\Users\Jacky\Desktop\9game.html
--'  101  0  ~\vimfiles\plugged\nerdtree\doc\NERD_tree.txt
--'  55  0  ~\vimfiles\plugged\ultisnips\doc\UltiSnips.txt
--'  66  10  C:\Program Files (x86)\Vim\vimfiles\doc\syntax.cnx
--'  47  0  C:\Program Files (x86)\Vim\vimfiles\doc\help.cnx
--'  1  0  C:\Program Files (x86)\Vim\vimfiles\doc\help.cnx
--'  53  0  C:\Program Files (x86)\vimcdoc\INSTALL
--'  1  0  C:\Program Files (x86)\vimcdoc\INSTALL
--'  18  6  C:\Users\Jacky\Desktop\9game.html
--'  12  1  C:\Users\Jacky\Desktop\9game.html
--'  19  10  C:\Users\Jacky\Desktop\9game.html
--'  21  0  C:\Users\Jacky\Desktop\9game.html
--'  1  0  C:\Users\Jacky\Desktop\9game.html
--'  13  0  C:\Users\Jacky\Desktop\9game.html
--'  16  0  C:\Users\Jacky\Desktop\9game.html
--'  5  1  C:\Users\Jacky\Desktop\1.txt
--'  10  7  C:\Users\Jacky\Desktop\1.txt
--'  1  0  C:\Users\Jacky\Desktop\1.txt
--'  19  0  C:\Users\Jacky\Desktop\1.txt
--'  2  0  C:\Users\Jacky\Desktop\9game.html
--'  3  10  C:\Users\Jacky\Desktop\9game.html
--'  20  0  C:\Users\Jacky\Desktop\9game.html
--'  101  0  ~\vimfiles\plugged\nerdtree\doc\NERD_tree.txt
--'  55  0  ~\vimfiles\plugged\ultisnips\doc\UltiSnips.txt
--'  2  0  ~/_vimrc
--'  59  0  ~/_vimrc
--'  24  10  ~\vimfiles\UltiSnips\all.snippets
--'  1  0  ~\vimconfig\README.md
--'  1  0  ~\.gitconfig
+-'  18  1  C:\Users\Jacky\Desktop\9game.html
+-'  7  0  C:\Users\Jacky\Desktop\9game.html
+-'  12  0  ~\README.md
+-'  13  0  ~\README.md
+-'  14  0  ~\README.md
+-'  34  0  C:\Users\Jacky\Desktop\NERD_tree_1
+-'  63  2  C:\Users\Jacky\Desktop\NERD_tree_1
+-'  1  0  C:\Users\Jacky\Desktop\NERD_tree_1
+-'  25  1  ~\vimfiles\plugged\vim-snippets\snippets\python.snippets
+-'  27  31  ~\vimfiles\plugged\vim-snippets\snippets\python.snippets
+-'  29  1  ~\vimfiles\plugged\vim-snippets\snippets\python.snippets
+-'  1  0  ~\vimfiles\plugged\vim-snippets\snippets\python.snippets
+-'  99  2  ~\vimfiles\plugged\vim-snippets\UltiSnips\python.snippets
+-'  101  4  ~\vimfiles\plugged\vim-snippets\UltiSnips\python.snippets
+-'  1  0  ~\vimfiles\plugged\vim-snippets\UltiSnips\python.snippets
+-'  9  0  C:\Users\Jacky\Desktop\1.py
+-'  3  3  C:\Users\Jacky\Desktop\1.py
+-'  1  0  C:\Users\Jacky\Desktop\1.py
+-'  9  0  ~\vimfiles\UltiSnips\python.snippets
+-'  1  0  ~\vimfiles\UltiSnips\python.snippets
+-'  26  0  ~\vimfiles\UltiSnips\all.snippets
+-'  1  0  ~\vimfiles\UltiSnips\all.snippets
+-'  1  0  C:\Users\Jacky\Desktop\UltiSnips
+-'  15  0  D:\Documents\Doc\Python\whatsnewin9game2.py
 
 # 文件内的标记历史记录 (从新到旧):
 
-> ~\README.md
-	"	12	0
-	^	9	30
-	.	12	0
-	+	1	15
-	+	2	0
-	+	2	18
-	+	2	0
-	+	3	3
-	+	2	9
-	+	3	24
-	+	4	33
-	+	19	0
-	+	6	8
-	+	7	3
-	+	4	0
-	+	7	3
-	+	8	30
-	+	2	0
-	+	6	0
+> C:\Users\Jacky\Desktop\1.py
+	"	3	3
+	.	3	0
+	+	12	18
+	+	12	29
+	+	12	29
+	+	12	29
+	+	12	7
 	+	12	0
-	+	12	1
-	+	16	7
-	+	18	2
-	+	12	11
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	5	0
-	+	6	2
-	+	11	4
+	+	12	29
+	+	12	29
 	+	12	0
-	+	1	0
 	+	12	0
-	+	10	0
-	+	3	27
-	+	9	29
+	+	12	0
+	+	12	80
+	+	12	0
+	+	12	0
+	+	12	25
+	+	12	40
+	+	12	0
+	+	12	0
+	+	12	36
+	+	30	0
+	+	30	0
+	+	30	0
+	+	29	0
+	+	12	51
+	+	12	0
+	+	12	0
+	+	12	12
+	+	12	15
+	+	12	0
+	+	12	0
+	+	31	88
+	+	29	0
+	+	30	0
+	+	28	0
+	+	29	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	29	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
+	+	12	0
 	+	12	0
 	+	13	0
-	+	14	0
 	+	12	0
-
-> C:\Users\Jacky\Desktop\__MRU_Files__
-	"	1	0
-	.	17	0
-	+	405	0
-	+	405	0
-	+	400	0
-	+	396	0
-	+	390	0
-	+	382	0
-	+	374	0
-	+	366	0
-	+	357	0
-	+	345	0
-	+	333	0
-	+	321	0
-	+	309	0
-	+	297	0
-	+	285	0
-	+	273	0
-	+	261	0
-	+	249	0
-	+	237	0
-	+	225	0
-	+	213	0
-	+	201	0
-	+	189	0
-	+	177	0
-	+	165	0
-	+	153	0
-	+	141	0
-	+	129	0
-	+	117	0
-	+	105	0
-	+	93	0
-	+	80	0
-	+	79	0
-	+	79	0
-	+	77	0
-	+	75	0
-	+	71	0
-	+	67	0
-	+	63	0
-	+	59	0
-	+	53	0
-	+	47	0
-	+	32	0
-	+	17	0
-
-> ~/_vimrc
-	"	2	0
-	^	12	0
-	.	12	0
-	+	2	9
-	+	1	0
-	+	5	6
-	+	8	0
-	+	21	0
-	+	22	11
-	+	22	0
-	+	22	0
-	+	21	0
-	+	11	26
-	+	11	26
-	+	50	0
-	+	51	0
-	+	49	0
-	+	66	0
-	+	69	0
-	+	67	22
-	+	32	0
-	+	33	0
-	+	57	0
-	+	67	0
-	+	87	0
-	+	81	0
-	+	82	0
-	+	83	0
-	+	84	0
-	+	86	0
-	+	87	0
-	+	88	0
-	+	60	0
-	+	102	0
-	+	81	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	67	0
-	+	101	1
-	+	13	20
+	+	27	0
+	+	19	0
+	+	31	93
+	+	30	22
+	+	27	0
+	+	24	0
+	+	27	0
 	+	25	0
-	+	13	23
-	+	2	0
-	+	2	0
-	+	12	0
+	+	30	22
+	+	9	0
+	+	10	0
+	+	31	92
+	+	30	22
+	+	1	0
+	+	3	0
+	+	3	30
+	+	3	0
+	+	3	0
+	+	7	0
+	+	8	0
+	+	8	0
+	+	8	0
+	+	7	44
+	+	5	15
+	+	5	0
+	+	7	0
+	+	7	0
+	+	7	22
+	+	5	18
+	+	5	0
+	+	5	0
+	+	5	0
+	+	5	8
+	+	5	0
+	+	5	18
+	+	5	8
+	+	5	0
+	+	5	0
+	+	5	0
+	+	5	13
+	+	5	13
+	+	5	15
+	+	5	21
+	+	5	11
+	+	7	22
+	+	7	21
+	+	5	17
+	+	5	0
+	+	7	0
+	+	6	0
+	+	3	0
+	+	3	0
+
+> ~\vimfiles\UltiSnips\python.snippets
+	"	9	0
+	.	9	0
+	+	10	0
+	+	9	0
+
+> ~\vimfiles\UltiSnips\all.snippets~
+	"	27	0
 
 > ~\vimfiles\UltiSnips\all.snippets
-	"	24	10
-	^	24	11
-	.	24	10
+	"	26	0
+	.	27	0
 	+	19	11
 	+	21	0
 	+	20	17
-	+	26	0
+	+	27	0
 	+	23	0
 	+	24	0
 	+	22	0
 	+	23	12
 	+	24	10
+	+	26	0
+	+	27	8
+	+	27	0
+	+	27	0
+	+	27	0
+	+	27	0
+	+	27	0
+	+	27	0
 	d	23	8
-
-> ~\vimconfig\README.md
-	"	1	0
-
-> ~\.gitconfig
-	"	1	0
-
-> ~\.ssh\id_rsa
-	"	25	0
-
-> E:\HOME\.gitconfig
-	"	1	0
 
 > D:\Documents\Doc\Python\whatsnewin9game2.py
 	"	15	0
@@ -458,94 +448,72 @@ $.
 	+	17	0
 	+	15	0
 
-> C:\Users\Jacky\Desktop\9game.html
-	"	18	6
-	^	19	4
-	.	18	30
-	+	3	0
-	+	1	0
-	+	5	71
-	+	5	103
-	+	5	131
-	+	5	0
-	+	5	0
-	+	9	49
-	+	9	115
-	+	9	0
-	+	10	0
-	+	10	0
-	+	2	0
-	+	17	40
-	+	18	30
+> C:\Users\Jacky\Desktop\__MRU_Files__
+	"	9	0
+	.	24	0
+	+	475	0
+	+	475	0
+	+	470	0
+	+	466	0
+	+	460	0
+	+	452	0
+	+	444	0
+	+	436	0
+	+	427	0
+	+	415	0
+	+	403	0
+	+	391	0
+	+	379	0
+	+	367	0
+	+	355	0
+	+	343	0
+	+	331	0
+	+	319	0
+	+	307	0
+	+	295	0
+	+	283	0
+	+	271	0
+	+	259	0
+	+	247	0
+	+	235	0
+	+	223	0
+	+	211	0
+	+	199	0
+	+	187	0
+	+	175	0
+	+	163	0
+	+	150	0
+	+	149	0
+	+	149	0
+	+	147	0
+	+	145	0
+	+	141	0
+	+	137	0
+	+	133	0
+	+	129	0
+	+	123	0
+	+	117	0
+	+	102	0
+	+	87	0
+	+	72	0
+	+	57	0
+	+	42	0
+	+	24	0
 
-> C:\Users\Jacky\Desktop\1.txt
-	"	5	1
-	.	10	0
-	+	19	0
-	+	1	0
-	+	1	0
-	+	19	0
-	+	19	63
-	+	19	0
-	+	10	0
-
-> C:\Program Files (x86)\Vim\vimfiles\doc\change.cnx
-	"	232	41
-
-> C:\Users\Jacky\Desktop\1.htm
-	"	16	52
-	.	2	0
-	+	2	0
-
-> C:\Program Files (x86)\Vim\vimfiles\doc\cmdline.cnx
-	"	2	0
-
-> C:\Program Files (x86)\Vim\vimfiles\doc\help.cnx
+> C:\Users\Jacky\Desktop\UltiSnips
 	"	1	0
 
-> C:\Program Files (x86)\Vim\vimfiles\doc\intro.cnx
-	"	41	0
+> ~\vimfiles\plugged\vim-snippets\snippets\python.snippets
+	"	25	1
 
-> C:\Program Files (x86)\Vim\vim74\doc\various.txt
-	"	114	13
+> ~\vimfiles\plugged\vim-snippets\UltiSnips\python.snippets
+	"	99	2
 
-> C:\Program Files (x86)\Vim\vimfiles\doc\various.cnx
-	"	99	13
-
-> C:\Program Files (x86)\Vim\vimfiles\doc\motion.cnx
-	"	1000	7
-
-> C:\Program Files (x86)\Vim\vimfiles\doc\syntax.cnx
-	"	66	10
-
-> ~\vimfiles\plugged\ultisnips\doc\UltiSnips.txt
-	"	55	0
-
-> ~\vimfiles\plugged\nerdtree\doc\NERD_tree.txt
-	"	101	0
-	.	717	0
-	+	717	0
-
-> C:\Program Files (x86)\vimcdoc\INSTALL
-	"	53	0
-
-> C:\Program Files (x86)\Vim\vim74\doc\help.txt
-	"	64	0
-
-> C:\Program Files (x86)\Vim\vim74\doc\usr_21.txt
-	"	113	0
-
-> C:\Program Files (x86)\Vim\vim74\doc\eval.txt
-	"	5161	38
-
-> C:\Program Files (x86)\Vim\vim74\doc\syntax.txt
-	"	7	21
-
-> ~\_vim_mru_files
-	"	1	0
+> D:\Documents\Doc\Python\getBlibliComments.py
+	"	3	7
 
 > C:\Users\Jacky\Desktop\NERD_tree_1
-	"	66	12
+	"	34	0
 	.	1	0
 	+	1	0
 	+	1	0
@@ -633,6 +601,246 @@ $.
 	+	1	0
 	+	1	0
 	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> D:\Documents\Doc\Python\getAniu.py
+	"	5	0
+	.	6	0
+	+	6	0
+	+	6	0
+
+> D:\Documents\Doc\Python\getArticle.py
+	"	5	0
+
+> D:\Documents\Doc\Python\ptbus.py
+	"	26	31
+	^	25	19
+	.	27	18
+	+	24	0
+	+	24	0
+	+	24	22
+	+	23	8
+	+	24	20
+	+	23	70
+	+	24	0
+	+	23	7
+	+	24	0
+	+	30	0
+	+	27	14
+	+	28	11
+	+	27	8
+	+	28	0
+	+	29	0
+	+	28	20
+	+	29	28
+	+	23	71
+	+	25	18
+	+	27	18
+
+> C:\Users\Jacky\Desktop\9game.html
+	"	3	0
+	^	19	4
+	.	4	0
+	+	3	0
+	+	1	0
+	+	5	71
+	+	5	103
+	+	5	131
+	+	5	0
+	+	5	0
+	+	9	49
+	+	9	115
+	+	9	0
+	+	10	0
+	+	10	0
+	+	2	0
+	+	17	40
+	+	18	30
+	+	3	0
+	+	4	0
+
+> ~\README.md
+	"	12	0
+	^	9	30
+	.	12	0
+	+	1	15
+	+	2	0
+	+	2	18
+	+	2	0
+	+	3	3
+	+	2	9
+	+	3	24
+	+	4	33
+	+	19	0
+	+	6	8
+	+	7	3
+	+	4	0
+	+	7	3
+	+	8	30
+	+	2	0
+	+	6	0
+	+	12	0
+	+	12	1
+	+	16	7
+	+	18	2
+	+	12	11
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	5	0
+	+	6	2
+	+	11	4
+	+	12	0
+	+	1	0
+	+	12	0
+	+	10	0
+	+	3	27
+	+	9	29
+	+	12	0
+	+	13	0
+	+	14	0
+	+	12	0
+
+> ~/_vimrc
+	"	2	0
+	^	12	0
+	.	12	0
+	+	2	9
+	+	1	0
+	+	5	6
+	+	8	0
+	+	21	0
+	+	22	11
+	+	22	0
+	+	22	0
+	+	21	0
+	+	11	26
+	+	11	26
+	+	50	0
+	+	51	0
+	+	49	0
+	+	66	0
+	+	69	0
+	+	67	22
+	+	32	0
+	+	33	0
+	+	57	0
+	+	67	0
+	+	87	0
+	+	81	0
+	+	82	0
+	+	83	0
+	+	84	0
+	+	86	0
+	+	87	0
+	+	88	0
+	+	60	0
+	+	102	0
+	+	81	0
+	+	2	0
+	+	1	0
+	+	2	0
+	+	67	0
+	+	101	1
+	+	13	20
+	+	25	0
+	+	13	23
+	+	2	0
+	+	2	0
+	+	12	0
+
+> ~\vimconfig\README.md
+	"	1	0
+
+> ~\.gitconfig
+	"	1	0
+
+> ~\.ssh\id_rsa
+	"	25	0
+
+> E:\HOME\.gitconfig
+	"	1	0
+
+> C:\Users\Jacky\Desktop\1.txt
+	"	5	1
+	.	10	0
+	+	19	0
+	+	1	0
+	+	1	0
+	+	19	0
+	+	19	63
+	+	19	0
+	+	10	0
+
+> C:\Program Files (x86)\Vim\vimfiles\doc\change.cnx
+	"	232	41
+
+> C:\Users\Jacky\Desktop\1.htm
+	"	16	52
+	.	2	0
+	+	2	0
+
+> C:\Program Files (x86)\Vim\vimfiles\doc\cmdline.cnx
+	"	2	0
+
+> C:\Program Files (x86)\Vim\vimfiles\doc\help.cnx
+	"	1	0
+
+> C:\Program Files (x86)\Vim\vimfiles\doc\intro.cnx
+	"	41	0
+
+> C:\Program Files (x86)\Vim\vim74\doc\various.txt
+	"	114	13
+
+> C:\Program Files (x86)\Vim\vimfiles\doc\various.cnx
+	"	99	13
+
+> C:\Program Files (x86)\Vim\vimfiles\doc\motion.cnx
+	"	1000	7
+
+> C:\Program Files (x86)\Vim\vimfiles\doc\syntax.cnx
+	"	66	10
+
+> ~\vimfiles\plugged\ultisnips\doc\UltiSnips.txt
+	"	55	0
+
+> ~\vimfiles\plugged\nerdtree\doc\NERD_tree.txt
+	"	101	0
+	.	717	0
+	+	717	0
+
+> C:\Program Files (x86)\vimcdoc\INSTALL
+	"	53	0
+
+> C:\Program Files (x86)\Vim\vim74\doc\help.txt
+	"	64	0
+
+> C:\Program Files (x86)\Vim\vim74\doc\usr_21.txt
+	"	113	0
+
+> C:\Program Files (x86)\Vim\vim74\doc\eval.txt
+	"	5161	38
+
+> C:\Program Files (x86)\Vim\vim74\doc\syntax.txt
+	"	7	21
+
+> ~\_vim_mru_files
+	"	1	0
 
 > ~\vimfiles\plugin\mru.vim
 	"	137	0
@@ -744,55 +952,6 @@ $.
 
 > D:\Vim\vim74\doc\cmdline.txt
 	"	561	65
-
-> C:\Users\Jacky\Desktop\1.py
-	"	8	2
-	^	10	8
-	.	10	7
-	+	21	0
-	+	21	0
-	+	21	0
-	+	21	4
-	+	21	9
-	+	21	0
-	+	21	0
-	+	21	0
-	+	1	0
-	+	1	0
-	+	1	14
-	+	1	6
-	+	17	0
-	+	18	0
-	+	17	6
-	+	18	8
-	+	20	8
-	+	1	0
-	+	1	0
-	+	1	14
-	+	1	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	14	0
-	+	14	0
-	+	14	0
-	+	15	0
-	+	14	20
-	+	15	0
-	+	15	0
-	+	15	0
-	+	15	0
-	+	13	0
-	+	12	0
-	+	1	0
-	+	3	0
-	+	4	9
-	+	6	0
-	+	7	0
-	+	8	0
-	+	7	22
-	+	8	14
-	+	10	7
 
 > D:\Vim\vim74\doc\tabpage.txt
 	"	205	18
