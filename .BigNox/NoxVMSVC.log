@@ -1,0 +1,32 @@
+VirtualBox COM Server 4.3.12_OSE r2365 win.amd64 (Sep 16 2015 11:04:52) release log
+00:00:00.064044 main     Log opened 2016-09-18T05:43:22.393622300Z
+00:00:00.064044 main     Build Type: release
+00:00:00.064044 main     OS Product: Unknown NT v10.0
+00:00:00.064044 main     OS Release: 10.0.10240
+00:00:00.064044 main     OS Service Pack: 
+00:00:00.116583 main     DMI Product Name: 20AL001GCD
+00:00:00.133593 main     DMI Product Version: ThinkPad X240
+00:00:00.133593 main     Host RAM: 8071MB total, 4068MB available
+00:00:00.133593 main     Executable: C:\Program Files\Bignox\BigNoxVM\RT\NoxVMSVC.exe
+00:00:00.133593 main     Process ID: 4468
+00:00:00.133593 main     Package type: WINDOWS_64BITS_GENERIC (OSE)
+00:00:00.285200          Loading settings file "D:\HOME/.BigNox\BigNoxVM.xml" with version "1.12-windows"
+00:00:00.454321          usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+00:00:00.454321          usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+00:00:00.454321          usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+00:00:00.653963          failed to get the sun_VBoxNetFlt component, error (0x1)
+00:00:00.804069          HostDnsMonitorProxy: Host's DNS information updated:
+00:00:00.804069          DNS server 1: 192.168.18.1
+00:00:00.804069          DNS domain: modouwifi.com
+00:00:00.804569          VDInit finished
+00:00:00.879122          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={d9e7df74-e5b2-4465-a649-8b79c03cf6e7} aComponent={SystemProperties} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false
+00:00:01.041239          Loading settings file "C:\Users\Jacky\AppData\Roaming\Nox\bin\BignoxVMS\nox\nox.vbox" with version "1.12-windows"
+00:32:59.448986 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+00:32:59.449481 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+00:32:59.449481 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+00:52:57.145589 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+00:52:57.145589 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+00:52:57.145589 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+00:53:00.029812 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+00:53:00.031281 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)
+00:53:00.031786 USBPROXY usbLibDevStrDrEntryGet: DeviceIoControl 1 fail winEr (31)

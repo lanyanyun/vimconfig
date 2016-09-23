@@ -23,7 +23,6 @@
 "       http://amix.dk/vim/vimrc.txt
 "
 " Sections:
-"    -> Plugin Management
 "    -> General
 "    -> VIM user interface
 "    -> Colors and Fonts
@@ -39,18 +38,6 @@
 "    -> Helper functions
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Plugin Nanagement`
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-call plug#begin('~/vimfiles/plugged')
-Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
-Plug 'scrooloose/nerdtree'
-Plug 'bling/vim-airline'
-Plug 'tomtom/tcomment_vim'
-call plug#end()
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -78,8 +65,7 @@ nmap <leader>w :w!<cr>
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
 
-" Use Windows Clipboard
-set clipboard=unnamed
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -106,9 +92,6 @@ endif
 "Always show current position
 set ruler
 
-"Always show line number 
-set number
-
 " Height of the command bar
 set cmdheight=2
 
@@ -124,9 +107,6 @@ set ignorecase
 
 " When searching try to be smart about cases 
 set smartcase
-
-" Highlight current line
-set cursorline
 
 " Highlight search results
 set hlsearch
@@ -162,7 +142,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme solarized 
+    colorscheme desert
 catch
 endtry
 
@@ -175,10 +155,6 @@ if has("gui_running")
     set t_Co=256
     set guitablabel=%M\ %t
 endif
-
-
-" Set Font 
-set guifont=Consolas:h14
 
 " Set utf8 as standard encoding and en_US as the standard language
 set encoding=utf8
@@ -195,13 +171,7 @@ set nobackup
 set nowb
 set noswapfile
 
-" MRU_File 
-let MRU_File = $HOME.'/_vim_mru_files'
 
-" NERDTree Toggle
-nnoremap <F10> :exe 'NERDTreeToggle'<CR>
-" Run Python by F5
-nnoremap <F5> :exe "!%" 'Run Python'<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, tab and indent related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
