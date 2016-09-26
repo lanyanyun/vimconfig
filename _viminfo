@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/uni
+~MSle0~/data-src
 
 # Last Substitute Search Pattern:
 ~MSle0&data-src
@@ -20,18 +20,32 @@
 $src
 
 # Command Line History (newest to oldest):
-:MRU
-|2,0,1474620647,,"MRU"
 :q
-|2,0,1474620607,,"q"
+|2,0,1474852788,,"q"
+:MRU
+|2,0,1474852768,,"MRU"
+:q!
+|2,0,1474623085,,"q!"
+:vs 2.txt
+|2,0,1474623066,,"vs 2.txt"
+:w
+|2,0,1474622997,,"w"
+:w c:\Users\Jacky\Desktop\1.txt
+|2,0,1474622963,,"w c:\\Users\\Jacky\\Desktop\\1.txt"
+:e whatsnewin9game2.py
+|2,0,1474622522,,"e whatsnewin9game2.py"
+:vs whatsnewin9game.py
+|2,0,1474622505,,"vs whatsnewin9game.py"
+:vs 
+|2,0,1474622489,,"vs "
+:%s/data-src/src/g
+|2,0,1474622449,,"%s/data-src/src/g"
 :e baidujs.py
 |2,0,1474620601,,"e baidujs.py"
 :vs _viminfo
 |2,0,1474620566,,"vs _viminfo"
 :help clipboard
 |2,0,1474619714,,"help clipboard"
-:w
-|2,0,1474619708,,"w"
 :vs $HOME/back/_vimrc2
 |2,0,1474619165,,"vs $HOME/back/_vimrc2"
 :vs
@@ -58,8 +72,6 @@ $src
 |2,0,1474618090,,"colorscheme desert"
 :vs $HOME/_vimrc2
 |2,0,1474618034,,"vs $HOME/_vimrc2"
-:%s/data-src/src/g
-|2,0,1474618012,,"%s/data-src/src/g"
 :e c:\users\Jacky\Desktop\1.html
 |2,0,1474617958,,"e c:\\users\\Jacky\\Desktop\\1.html"
 :e $HOME/_vimrc
@@ -132,8 +144,6 @@ $src
 |2,0,1474339467,,"%s/data\\-src/src/gc"
 :e 2.html
 |2,0,1474339388,,"e 2.html"
-:q!
-|2,0,1474339376,,"q!"
 :w 2.html
 |2,0,1474339136,,"w 2.html"
 :%s/date\-src/src/gc
@@ -234,6 +244,10 @@ $src
 |2,0,0,,"%s/li\\>/ol\\>/gc"
 
 # Search String History (newest to oldest):
+?/data-src
+|2,1,1474622455,47,"data-src"
+? data-src
+|2,1,1474622449,,"data-src"
 ?/uni
 |2,1,1474620657,47,"uni"
 ?/map
@@ -274,8 +288,6 @@ $src
 |2,1,1474618054,47,"colors"
 ?/colorj
 |2,1,1474618050,47,"colorj"
-? data-src
-|2,1,1474618012,,"data-src"
 ?/colorschemej
 |2,1,1474617822,47,"colorschemej"
 ?/MRU
@@ -290,8 +302,6 @@ $src
 |2,1,1474617474,47,"font"
 ? HOME/_vimrc2
 |2,1,1474617047,,"HOME/_vimrc2"
-?/data-src
-|2,1,1474614984,47,"data-src"
 ? eixin2onenote.py
 |2,1,1474440249,,"eixin2onenote.py"
 ? data\-src
@@ -418,28 +428,34 @@ $src
 # Debug Line History (newest to oldest):
 
 # 寄存器:
-""0	CHAR	0
+"0	CHAR	0
 	http://amix.dk/vim/vimrc.html
-|3,1,0,0,1,0,1474620196,"http://amix.dk/vim/vimrc.html"
-"1	LINE	0
-	
-|3,0,1,1,1,0,1474619302,""
+|3,0,0,0,1,0,1474620196,"http://amix.dk/vim/vimrc.html"
+""1	LINE	0
+	111
+|3,1,1,1,1,0,1474861063,"111"
 "2	LINE	0
-	"
-|3,0,2,1,1,0,1474617719,"\""
+	111
+|3,0,2,1,1,0,1474861056,"111"
 "3	LINE	0
 	
-|3,0,3,1,1,0,1474617409,""
+|3,0,3,1,1,0,1474619302,""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1474614789,""
+	"
+|3,0,4,1,1,0,1474617719,"\""
 "5	LINE	0
-	        print title
-|3,0,5,1,1,0,1474442806,"        print title"
+	
+|3,0,5,1,1,0,1474617409,""
 "6	LINE	0
-		weixinUrl='http://mp.weixin.qq.com/s?src=3&timestamp=1474440054&ver=1&signature=255hcNIL3Jv4gAtC*831h4kUnGR4giFucA8S3WQFHwgH2lHTwiuBcLWvXKtY91UTb8Y20V2-BVFQtOnGOIOX6tOQQkcNVIJaPPYj9yUXEBGbI4ijZbzV38sOVL5pr2jfWGbc5ruyY5mJWewPXz8KXA=='
-|3,0,6,1,1,0,1474442130,"	weixinUrl='http://mp.weixin.qq.com/s?src=3&timestamp=1474440054&ver=1&signature=255hcNIL3Jv4gAtC*831h4kUnGR4giFucA8S3WQFHwgH2lHTwiuBcLWvXKtY91UTb8Y20V2-BVFQtOnGOIOX6tOQQkcNVIJaPPYj9yUXEBGbI4ijZbzV38sOVL5pr2jfWGbc5ruyY5mJWewPXz8KXA=='"
+	
+|3,0,6,1,1,0,1474614789,""
 "7	LINE	0
+	        print title
+|3,0,7,1,1,0,1474442806,"        print title"
+"8	LINE	0
+		weixinUrl='http://mp.weixin.qq.com/s?src=3&timestamp=1474440054&ver=1&signature=255hcNIL3Jv4gAtC*831h4kUnGR4giFucA8S3WQFHwgH2lHTwiuBcLWvXKtY91UTb8Y20V2-BVFQtOnGOIOX6tOQQkcNVIJaPPYj9yUXEBGbI4ijZbzV38sOVL5pr2jfWGbc5ruyY5mJWewPXz8KXA=='
+|3,0,8,1,1,0,1474442130,"	weixinUrl='http://mp.weixin.qq.com/s?src=3&timestamp=1474440054&ver=1&signature=255hcNIL3Jv4gAtC*831h4kUnGR4giFucA8S3WQFHwgH2lHTwiuBcLWvXKtY91UTb8Y20V2-BVFQtOnGOIOX6tOQQkcNVIJaPPYj9yUXEBGbI4ijZbzV38sOVL5pr2jfWGbc5ruyY5mJWewPXz8KXA=='"
+"9	LINE	0
 	def getHtml(weixinUrl):
 		file1 = open('d:/Documents/Doc/Python/tmp.html',"w")
 		req = urllib2.Request(weixinUrl) 
@@ -460,19 +476,8 @@ $src
 		file1.write(str(soup))
 		file1.close
 	
-|3,0,7,1,20,0,1474442086,"def getHtml(weixinUrl):","	file1 = open('d:/Documents/Doc/Python/tmp.html',\"w\")","	req = urllib2.Request(weixinUrl) ","	con = urllib2.urlopen(req)","	doc = con.read()","	file1.write(doc.replace('data-src=','src='))","	file1.close","","def simplifyHtml (html):","	soup = BeautifulSoup(open(html), \"html.parser\")","	third_producer = soup.find_all('div', class_='rich_media_area_primary sougou')","	third_producer[0].decompose()",>72
+|3,0,9,1,20,0,1474442086,"def getHtml(weixinUrl):","	file1 = open('d:/Documents/Doc/Python/tmp.html',\"w\")","	req = urllib2.Request(weixinUrl) ","	con = urllib2.urlopen(req)","	doc = con.read()","	file1.write(doc.replace('data-src=','src='))","	file1.close","","def simplifyHtml (html):","	soup = BeautifulSoup(open(html), \"html.parser\")","	third_producer = soup.find_all('div', class_='rich_media_area_primary sougou')","	third_producer[0].decompose()",>72
 |<"	third_producer = soup.find_all('div', class_='rich_media_area_extra')","	third_producer[0].decompose()","	third_producer = soup.find_all('div', id='js_pc_qr_code')","	third_producer[0].decompose()","	file1 = open('d:/Documents/Doc/Python/winxintmp.html','w')","	file1.write(str(soup))","	file1.close",""
-"8	LINE	0
-	def getText():
-	    w.OpenClipboard()
-	    d = w.GetClipboardData(win32con.CF_TEXT)
-	    w.CloseClipboard()
-	    return d
-|3,0,8,1,5,0,1474441493,"def getText():","    w.OpenClipboard()","    d = w.GetClipboardData(win32con.CF_TEXT)","    w.CloseClipboard()","    return d"
-"9	LINE	0
-	import win32clipboard as w
-	import win32con
-|3,0,9,1,2,0,1474441371,"import win32clipboard as w","import win32con"
 "a@	CHAR	0
 	^i<li>A</li>j
 |3,2,10,0,1,0,0,"^i<li>A</li>j"
@@ -484,230 +489,330 @@ $src
 |3,0,36,0,1,0,1474619329,"hlsearch"
 
 # 文件标记:
-'0  185  0  ~\_vimrc
-|4,48,185,0,1474621083,"~\\_vimrc"
-'1  202  21  ~\_vimrc
-|4,49,202,21,1474619888,"~\\_vimrc"
-'2  202  21  ~\_vimrc
-|4,50,202,21,1474619888,"~\\_vimrc"
-'3  81  22  ~\_vimrc
-|4,51,81,22,1474619757,"~\\_vimrc"
-'4  81  22  ~\_vimrc
-|4,52,81,22,1474619757,"~\\_vimrc"
-'5  81  22  ~\_vimrc
-|4,53,81,22,1474619757,"~\\_vimrc"
-'6  81  22  ~\_vimrc
-|4,54,81,22,1474619757,"~\\_vimrc"
-'7  109  23  ~\_vimrc
-|4,55,109,23,1474619128,"~\\_vimrc"
-'8  108  23  ~\_vimrc
-|4,56,108,23,1474619128,"~\\_vimrc"
-'9  109  23  ~\_vimrc
-|4,57,109,23,1474619128,"~\\_vimrc"
+'0  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,48,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+'1  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,49,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+'2  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,50,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+'3  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,51,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+'4  185  0  ~\_vimrc
+|4,52,185,0,1474621083,"~\\_vimrc"
+'5  202  21  ~\_vimrc
+|4,53,202,21,1474619888,"~\\_vimrc"
+'6  202  21  ~\_vimrc
+|4,54,202,21,1474619888,"~\\_vimrc"
+'7  81  22  ~\_vimrc
+|4,55,81,22,1474619757,"~\\_vimrc"
+'8  81  22  ~\_vimrc
+|4,56,81,22,1474619757,"~\\_vimrc"
+'9  81  22  ~\_vimrc
+|4,57,81,22,1474619757,"~\\_vimrc"
 
 # 跳转列表 (从新到旧):
--'  185  0  ~\_vimrc
-|4,39,185,0,1474621083,"~\\_vimrc"
--'  315  2  ~\_vimrc
-|4,39,315,2,1474620658,"~\\_vimrc"
--'  269  0  ~\_vimrc
-|4,39,269,0,1474620657,"~\\_vimrc"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
 -'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,82,1,1474620650,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
 -'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,1,0,1474620632,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
--'  1  0  D:\Documents\Doc\Python\baidujs.py
-|4,39,1,0,1474620615,"D:\\Documents\\Doc\\Python\\baidujs.py"
--'  258  0  ~\_vimrc
-|4,39,258,0,1474620407,"~\\_vimrc"
--'  257  0  ~\_vimrc
-|4,39,257,0,1474620406,"~\\_vimrc"
--'  253  0  ~\_vimrc
-|4,39,253,0,1474620388,"~\\_vimrc"
--'  250  0  ~\_vimrc
-|4,39,250,0,1474620387,"~\\_vimrc"
--'  249  0  ~\_vimrc
-|4,39,249,0,1474620387,"~\\_vimrc"
--'  248  0  ~\_vimrc
-|4,39,248,0,1474620387,"~\\_vimrc"
--'  247  0  ~\_vimrc
-|4,39,247,0,1474620387,"~\\_vimrc"
--'  244  0  ~\_vimrc
-|4,39,244,0,1474620386,"~\\_vimrc"
--'  241  0  ~\_vimrc
-|4,39,241,0,1474620386,"~\\_vimrc"
--'  240  0  ~\_vimrc
-|4,39,240,0,1474620386,"~\\_vimrc"
--'  239  4  ~\_vimrc
-|4,39,239,4,1474620381,"~\\_vimrc"
--'  224  10  ~\_vimrc
-|4,39,224,10,1474620360,"~\\_vimrc"
--'  32  8  ~\_vimrc
-|4,39,32,8,1474620334,"~\\_vimrc"
--'  230  5  ~\_vimrc
-|4,39,230,5,1474620330,"~\\_vimrc"
--'  203  0  ~\_vimrc
-|4,39,203,0,1474620302,"~\\_vimrc"
--'  20  44  ~\_vimrc
-|4,39,20,44,1474620217,"~\\_vimrc"
--'  202  0  ~\_vimrc
-|4,39,202,0,1474620182,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1474620175,"~\\_vimrc"
--'  202  21  ~\_vimrc
-|4,39,202,21,1474619888,"~\\_vimrc"
--'  201  2  ~\_vimrc
-|4,39,201,2,1474619885,"~\\_vimrc"
--'  50  17  ~\_vimrc
-|4,39,50,17,1474619885,"~\\_vimrc"
--'  201  2  ~\_vimrc
-|4,39,201,2,1474619885,"~\\_vimrc"
--'  50  17  ~\_vimrc
-|4,39,50,17,1474619885,"~\\_vimrc"
--'  81  0  ~\_vimrc
-|4,39,81,0,1474619879,"~\\_vimrc"
--'  81  0  ~\_vimrc
-|4,39,81,0,1474619879,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1474619870,"~\\_vimrc"
--'  81  22  ~\_vimrc
-|4,39,81,22,1474619757,"~\\_vimrc"
--'  64  9  ~\_vimrc
-|4,39,64,9,1474619665,"~\\_vimrc"
--'  64  9  ~\_vimrc
-|4,39,64,9,1474619665,"~\\_vimrc"
--'  64  9  ~\_vimrc
-|4,39,64,9,1474619665,"~\\_vimrc"
--'  31  22  ~\_vimrc
-|4,39,31,22,1474619646,"~\\_vimrc"
--'  31  22  ~\_vimrc
-|4,39,31,22,1474619646,"~\\_vimrc"
--'  31  22  ~\_vimrc
-|4,39,31,22,1474619646,"~\\_vimrc"
--'  377  35  ~\_vimrc
-|4,39,377,35,1474619645,"~\\_vimrc"
--'  377  35  ~\_vimrc
-|4,39,377,35,1474619645,"~\\_vimrc"
--'  377  35  ~\_vimrc
-|4,39,377,35,1474619645,"~\\_vimrc"
--'  184  4  ~\_vimrc
-|4,39,184,4,1474619615,"~\\_vimrc"
--'  184  4  ~\_vimrc
-|4,39,184,4,1474619615,"~\\_vimrc"
--'  184  4  ~\_vimrc
-|4,39,184,4,1474619615,"~\\_vimrc"
--'  183  23  ~\_vimrc
-|4,39,183,23,1474619614,"~\\_vimrc"
--'  183  23  ~\_vimrc
-|4,39,183,23,1474619614,"~\\_vimrc"
--'  183  23  ~\_vimrc
-|4,39,183,23,1474619614,"~\\_vimrc"
--'  378  35  ~\_vimrc
-|4,39,378,35,1474619605,"~\\_vimrc"
--'  378  35  ~\_vimrc
-|4,39,378,35,1474619605,"~\\_vimrc"
--'  378  35  ~\_vimrc
-|4,39,378,35,1474619605,"~\\_vimrc"
--'  203  17  ~\_vimrc
-|4,39,203,17,1474619603,"~\\_vimrc"
--'  203  17  ~\_vimrc
-|4,39,203,17,1474619603,"~\\_vimrc"
--'  144  0  ~\_vimrc
-|4,39,144,0,1474619490,"~\\_vimrc"
--'  144  0  ~\_vimrc
-|4,39,144,0,1474619490,"~\\_vimrc"
--'  144  0  ~\_vimrc
-|4,39,144,0,1474619490,"~\\_vimrc"
--'  129  13  ~\_vimrc
-|4,39,129,13,1474619395,"~\\_vimrc"
--'  129  13  ~\_vimrc
-|4,39,129,13,1474619395,"~\\_vimrc"
--'  129  13  ~\_vimrc
-|4,39,129,13,1474619395,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1474619253,"~\\_vimrc"
--'  109  0  ~\_vimrc
-|4,39,109,0,1474619150,"~\\_vimrc"
--'  109  0  ~\_vimrc
-|4,39,109,0,1474619150,"~\\_vimrc"
--'  109  0  ~\_vimrc
-|4,39,109,0,1474619150,"~\\_vimrc"
--'  108  23  ~\_vimrc
-|4,39,108,23,1474619128,"~\\_vimrc"
--'  108  23  ~\_vimrc
-|4,39,108,23,1474619128,"~\\_vimrc"
--'  108  23  ~\_vimrc
-|4,39,108,23,1474619128,"~\\_vimrc"
--'  113  0  ~\_vimrc
-|4,39,113,0,1474619093,"~\\_vimrc"
--'  112  0  ~\_vimrc
-|4,39,112,0,1474619093,"~\\_vimrc"
--'  113  0  ~\_vimrc
-|4,39,113,0,1474619093,"~\\_vimrc"
--'  112  0  ~\_vimrc
-|4,39,112,0,1474619093,"~\\_vimrc"
--'  113  0  ~\_vimrc
-|4,39,113,0,1474619093,"~\\_vimrc"
--'  112  0  ~\_vimrc
-|4,39,112,0,1474619093,"~\\_vimrc"
--'  90  15  ~\_vimrc
-|4,39,90,15,1474619069,"~\\_vimrc"
--'  89  15  ~\_vimrc
-|4,39,89,15,1474619069,"~\\_vimrc"
--'  90  15  ~\_vimrc
-|4,39,90,15,1474619069,"~\\_vimrc"
--'  89  15  ~\_vimrc
-|4,39,89,15,1474619069,"~\\_vimrc"
--'  90  15  ~\_vimrc
-|4,39,90,15,1474619069,"~\\_vimrc"
--'  89  15  ~\_vimrc
-|4,39,89,15,1474619069,"~\\_vimrc"
--'  276  0  ~\_vimrc
-|4,39,276,0,1474619037,"~\\_vimrc"
--'  268  0  ~\_vimrc
-|4,39,268,0,1474619037,"~\\_vimrc"
--'  276  0  ~\_vimrc
-|4,39,276,0,1474619037,"~\\_vimrc"
--'  268  0  ~\_vimrc
-|4,39,268,0,1474619037,"~\\_vimrc"
--'  276  0  ~\_vimrc
-|4,39,276,0,1474619037,"~\\_vimrc"
--'  268  0  ~\_vimrc
-|4,39,268,0,1474619037,"~\\_vimrc"
--'  1  0  ~\_vimrc
-|4,39,1,0,1474619034,"~\\_vimrc"
--'  273  19  ~\_vimrc
-|4,39,273,19,1474618954,"~\\_vimrc"
--'  265  19  ~\_vimrc
-|4,39,265,19,1474618954,"~\\_vimrc"
--'  273  19  ~\_vimrc
-|4,39,273,19,1474618954,"~\\_vimrc"
--'  265  19  ~\_vimrc
-|4,39,265,19,1474618954,"~\\_vimrc"
--'  273  19  ~\_vimrc
-|4,39,273,19,1474618954,"~\\_vimrc"
--'  265  19  ~\_vimrc
-|4,39,265,19,1474618954,"~\\_vimrc"
--'  262  5  ~\_vimrc
-|4,39,262,5,1474618909,"~\\_vimrc"
--'  259  5  ~\_vimrc
-|4,39,259,5,1474618909,"~\\_vimrc"
--'  256  5  ~\_vimrc
-|4,39,256,5,1474618909,"~\\_vimrc"
--'  254  5  ~\_vimrc
-|4,39,254,5,1474618909,"~\\_vimrc"
--'  251  5  ~\_vimrc
-|4,39,251,5,1474618909,"~\\_vimrc"
--'  262  5  ~\_vimrc
-|4,39,262,5,1474618909,"~\\_vimrc"
--'  259  5  ~\_vimrc
-|4,39,259,5,1474618909,"~\\_vimrc"
--'  256  5  ~\_vimrc
-|4,39,256,5,1474618909,"~\\_vimrc"
--'  254  5  ~\_vimrc
-|4,39,254,5,1474618909,"~\\_vimrc"
+|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  C:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
+-'  3  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  c:\Users\Jacky\Desktop\1.txt
+|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+-'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
 
 # 文件内的标记历史记录 (从新到旧):
+
+> D:\Documents\Doc\Python\winxin2onenote.py
+	*	1474852771	0
+	"	1	0
+	^	26	33
+	.	24	0
+	+	19	0
+	+	22	0
+	+	19	12
+	+	22	0
+	+	22	53
+	+	24	0
+	+	22	0
+	+	24	50
+	+	22	20
+	+	7	0
+	+	3	0
+	+	6	9
+	+	19	0
+	+	22	31
+	+	25	15
+	+	25	48
+	+	26	24
+	+	24	49
+	+	26	25
+	+	28	0
+	+	19	8
+	+	19	71
+	+	19	0
+	+	18	0
+	+	19	0
+	+	18	0
+	+	4	0
+	+	18	0
+	+	19	0
+	+	11	0
+	+	12	0
+	+	18	0
+	+	11	0
+	+	28	0
+	+	18	19
+	+	19	0
+	+	28	0
+	+	24	18
+	+	27	0
+	+	26	33
+	+	28	0
+	+	24	0
+
+> C:\Users\Jacky\__MRU_Files__
+	*	1474852770	0
+	"	6	0
+	.	69	0
+	+	762	0
+	+	761	0
+	+	760	0
+	+	700	0
+	+	639	0
+	+	578	0
+	+	517	0
+	+	455	0
+	+	393	0
+	+	330	0
+	+	266	0
+	+	202	0
+	+	136	0
+	+	69	0
+
+> D:\Documents\Doc\Python\whatsnewin9game2.py
+	*	1474852763	0
+	"	82	1
+	^	6	0
+	.	2	0
+	+	83	9
+	+	83	0
+	+	83	8
+	+	83	0
+	+	17	0
+	+	15	0
+	+	35	46
+	+	2	0
+
+> C:\Users\Jacky\Desktop\1.txt
+	*	1474623085	0
+	"	1	0
+	^	1	64
+	.	1	0
+	+	1	0
+	+	19	0
+	+	1	0
+	+	19	0
+	+	19	63
+	+	19	0
+	+	10	0
+	+	2	0
+	+	1	0
+
+> C:\Users\Jacky\Desktop\2.txt
+	*	1474623070	0
+	"	1	0
+
+> D:\Documents\Doc\Python\whatsnewin9game.py
+	*	1474622517	0
+	"	1	0
 
 > ~\_vimrc
 	*	1474621082	0
@@ -790,35 +895,6 @@ $src
 	+	82	0
 	+	81	22
 	+	21	0
-
-> C:\Users\Jacky\__MRU_Files__
-	*	1474620650	0
-	"	4	0
-	.	66	0
-	+	498	0
-	+	497	0
-	+	496	0
-	+	436	0
-	+	375	0
-	+	314	0
-	+	253	0
-	+	191	0
-	+	129	0
-	+	66	0
-
-> D:\Documents\Doc\Python\whatsnewin9game2.py
-	*	1474620640	0
-	"	82	1
-	^	6	0
-	.	2	0
-	+	83	9
-	+	83	0
-	+	83	8
-	+	83	0
-	+	17	0
-	+	15	0
-	+	35	46
-	+	2	0
 
 > D:\Documents\Doc\Python\baidujs.py
 	*	1474620601	0
@@ -1011,54 +1087,6 @@ $src
 	*	1474615848	0
 	"	1	0
 
-> D:\Documents\Doc\Python\winxin2onenote.py
-	*	1474444420	0
-	"	24	8
-	^	26	33
-	.	24	0
-	+	19	0
-	+	22	0
-	+	19	12
-	+	22	0
-	+	22	53
-	+	24	0
-	+	22	0
-	+	24	50
-	+	22	20
-	+	7	0
-	+	3	0
-	+	6	9
-	+	19	0
-	+	22	31
-	+	25	15
-	+	25	48
-	+	26	24
-	+	24	49
-	+	26	25
-	+	28	0
-	+	19	8
-	+	19	71
-	+	19	0
-	+	18	0
-	+	19	0
-	+	18	0
-	+	4	0
-	+	18	0
-	+	19	0
-	+	11	0
-	+	12	0
-	+	18	0
-	+	11	0
-	+	28	0
-	+	18	19
-	+	19	0
-	+	28	0
-	+	24	18
-	+	27	0
-	+	26	33
-	+	28	0
-	+	24	0
-
 > D:\Documents\Doc\Python\getWexinArticle.py
 	*	1474440381	0
 	"	1	0
@@ -1184,23 +1212,6 @@ $src
 
 > C:\Program Files (x86)\Vim\vim74\vimrc_example.vim
 	"	73	0
-
-> C:\Users\Jacky\Desktop\1.txt
-	"	1	1
-	^	1	64
-	.	1	0
-	+	1	0
-	+	19	0
-	+	1	0
-	+	1	0
-	+	19	0
-	+	19	63
-	+	19	0
-	+	10	0
-	+	2	0
-	+	2	0
-	+	2	0
-	+	1	0
 
 > ~\vimfiles\plugged\vim-airline\doc\airline.txt
 	"	93	0
@@ -1792,9 +1803,3 @@ $src
 
 > C:\Users\Jacky\Desktop\help nnomap
 	"	1	0
-
-> C:\Users\Jacky\Desktop\help remap
-	"	1	0
-
-> D:\Vim\vim74\doc\cmdline.txt
-	"	561	65
