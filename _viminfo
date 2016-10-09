@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/data-src
+~MSle0~/plug
 
 # Last Substitute Search Pattern:
 ~MSle0&data-src
@@ -21,15 +21,43 @@ $src
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1474852788,,"q"
+|2,0,1475981963,,"q"
 :MRU
-|2,0,1474852768,,"MRU"
+|2,0,1475981949,,"MRU"
+:w
+|2,0,1475204432,,"w"
+:w C:\Users\Jacky\Desktop\1.htm
+|2,0,1475201534,,"w C:\\Users\\Jacky\\Desktop\\1.htm"
+:w c:\Users\Jacky\Desktop\transfer.txt
+|2,0,1474969639,,"w c:\\Users\\Jacky\\Desktop\\transfer.txt"
+:python
+|2,0,1474959701,,"python"
+:!python
+|2,0,1474959695,,"!python"
+:next
+|2,0,1474885819,,"next"
+:args
+|2,0,1474885755,,"args"
 :q!
-|2,0,1474623085,,"q!"
+|2,0,1474881983,,"q!"
+:ls 
+|2,0,1474881955,,"ls "
+:ls
+|2,0,1474881942,,"ls"
+:vs
+|2,0,1474881915,,"vs"
+:e 9game.html
+|2,0,1474881909,,"e 9game.html"
+:e c:\Users\Jacky\Desktop\
+|2,0,1474881888,,"e c:\\Users\\Jacky\\Desktop\\"
+:r !dir .
+|2,0,1474881848,,"r !dir ."
+:r dir .
+|2,0,1474881839,,"r dir ."
+:r dir
+|2,0,1474881833,,"r dir"
 :vs 2.txt
 |2,0,1474623066,,"vs 2.txt"
-:w
-|2,0,1474622997,,"w"
 :w c:\Users\Jacky\Desktop\1.txt
 |2,0,1474622963,,"w c:\\Users\\Jacky\\Desktop\\1.txt"
 :e whatsnewin9game2.py
@@ -48,8 +76,6 @@ $src
 |2,0,1474619714,,"help clipboard"
 :vs $HOME/back/_vimrc2
 |2,0,1474619165,,"vs $HOME/back/_vimrc2"
-:vs
-|2,0,1474618855,,"vs"
 :mapleader
 |2,0,1474618805,,"mapleader"
 :,tn
@@ -244,6 +270,14 @@ $src
 |2,0,0,,"%s/li\\>/ol\\>/gc"
 
 # Search String History (newest to oldest):
+?/plug
+|2,1,1474885431,47,"plug"
+? \<req\>
+|2,1,1474885282,,"\\<req\\>"
+? \<ajaxUrl\>
+|2,1,1474885267,,"\\<ajaxUrl\\>"
+? \<link\>
+|2,1,1474881950,,"\\<link\\>"
 ?/data-src
 |2,1,1474622455,47,"data-src"
 ? data-src
@@ -294,8 +328,6 @@ $src
 |2,1,1474617792,47,"MRU"
 ?/syntax
 |2,1,1474617752,47,"syntax"
-?/plug
-|2,1,1474617651,47,"plug"
 ?/w
 |2,1,1474617516,47,"w"
 ?/font
@@ -428,56 +460,36 @@ $src
 # Debug Line History (newest to oldest):
 
 # 寄存器:
-"0	CHAR	0
-	http://amix.dk/vim/vimrc.html
-|3,0,0,0,1,0,1474620196,"http://amix.dk/vim/vimrc.html"
+"0	LINE	0
+	  
+|3,0,0,1,1,0,1475201618,"  "
 ""1	LINE	0
-	111
-|3,1,1,1,1,0,1474861063,"111"
+	    <a href="123.apk" target="_blank">安装APK</a>
+|3,1,1,1,1,0,1475204028,"    <a href=\"123.apk\" target=\"_blank\">安装APK</a>"
 "2	LINE	0
-	111
-|3,0,2,1,1,0,1474861056,"111"
+	  
+|3,0,2,1,1,0,1475201583,"  "
 "3	LINE	0
-	
-|3,0,3,1,1,0,1474619302,""
+	冯永飞
+|3,0,3,1,1,0,1474969587,"冯永飞"
 "4	LINE	0
-	"
-|3,0,4,1,1,0,1474617719,"\""
+	111
+|3,0,4,1,1,0,1474861063,"111"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1474617409,""
+	111
+|3,0,5,1,1,0,1474861056,"111"
 "6	LINE	0
 	
-|3,0,6,1,1,0,1474614789,""
+|3,0,6,1,1,0,1474619302,""
 "7	LINE	0
-	        print title
-|3,0,7,1,1,0,1474442806,"        print title"
+	"
+|3,0,7,1,1,0,1474617719,"\""
 "8	LINE	0
-		weixinUrl='http://mp.weixin.qq.com/s?src=3&timestamp=1474440054&ver=1&signature=255hcNIL3Jv4gAtC*831h4kUnGR4giFucA8S3WQFHwgH2lHTwiuBcLWvXKtY91UTb8Y20V2-BVFQtOnGOIOX6tOQQkcNVIJaPPYj9yUXEBGbI4ijZbzV38sOVL5pr2jfWGbc5ruyY5mJWewPXz8KXA=='
-|3,0,8,1,1,0,1474442130,"	weixinUrl='http://mp.weixin.qq.com/s?src=3&timestamp=1474440054&ver=1&signature=255hcNIL3Jv4gAtC*831h4kUnGR4giFucA8S3WQFHwgH2lHTwiuBcLWvXKtY91UTb8Y20V2-BVFQtOnGOIOX6tOQQkcNVIJaPPYj9yUXEBGbI4ijZbzV38sOVL5pr2jfWGbc5ruyY5mJWewPXz8KXA=='"
+	
+|3,0,8,1,1,0,1474617409,""
 "9	LINE	0
-	def getHtml(weixinUrl):
-		file1 = open('d:/Documents/Doc/Python/tmp.html',"w")
-		req = urllib2.Request(weixinUrl) 
-		con = urllib2.urlopen(req)
-		doc = con.read()
-		file1.write(doc.replace('data-src=','src='))
-		file1.close
 	
-	def simplifyHtml (html):
-		soup = BeautifulSoup(open(html), "html.parser")
-		third_producer = soup.find_all('div', class_='rich_media_area_primary sougou')
-		third_producer[0].decompose()
-		third_producer = soup.find_all('div', class_='rich_media_area_extra')
-		third_producer[0].decompose()
-		third_producer = soup.find_all('div', id='js_pc_qr_code')
-		third_producer[0].decompose()
-		file1 = open('d:/Documents/Doc/Python/winxintmp.html','w')
-		file1.write(str(soup))
-		file1.close
-	
-|3,0,9,1,20,0,1474442086,"def getHtml(weixinUrl):","	file1 = open('d:/Documents/Doc/Python/tmp.html',\"w\")","	req = urllib2.Request(weixinUrl) ","	con = urllib2.urlopen(req)","	doc = con.read()","	file1.write(doc.replace('data-src=','src='))","	file1.close","","def simplifyHtml (html):","	soup = BeautifulSoup(open(html), \"html.parser\")","	third_producer = soup.find_all('div', class_='rich_media_area_primary sougou')","	third_producer[0].decompose()",>72
-|<"	third_producer = soup.find_all('div', class_='rich_media_area_extra')","	third_producer[0].decompose()","	third_producer = soup.find_all('div', id='js_pc_qr_code')","	third_producer[0].decompose()","	file1 = open('d:/Documents/Doc/Python/winxintmp.html','w')","	file1.write(str(soup))","	file1.close",""
+|3,0,9,1,1,0,1474614789,""
 "a@	CHAR	0
 	^i<li>A</li>j
 |3,2,10,0,1,0,0,"^i<li>A</li>j"
@@ -485,236 +497,239 @@ $src
 	Qq
 |3,0,26,0,1,0,0,"Qq"
 "-	CHAR	0
-	hlsearch
-|3,0,36,0,1,0,1474619329,"hlsearch"
+	Anchor Text
+|3,0,36,0,1,0,1475201613,"Anchor Text"
 
 # 文件标记:
 '0  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,48,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
-'1  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,49,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
-'2  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,50,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
-'3  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,51,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
-'4  185  0  ~\_vimrc
-|4,52,185,0,1474621083,"~\\_vimrc"
-'5  202  21  ~\_vimrc
-|4,53,202,21,1474619888,"~\\_vimrc"
-'6  202  21  ~\_vimrc
-|4,54,202,21,1474619888,"~\\_vimrc"
-'7  81  22  ~\_vimrc
-|4,55,81,22,1474619757,"~\\_vimrc"
-'8  81  22  ~\_vimrc
-|4,56,81,22,1474619757,"~\\_vimrc"
-'9  81  22  ~\_vimrc
-|4,57,81,22,1474619757,"~\\_vimrc"
+|4,48,1,0,1475981963,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+'1  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,49,1,0,1475892077,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+'2  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,50,1,0,1475891380,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+'3  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,51,1,0,1475891380,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+'4  10  17  C:\Users\Jacky\Desktop\1.htm
+|4,52,10,17,1475204451,"C:\\Users\\Jacky\\Desktop\\1.htm"
+'5  14  6  C:\Users\Jacky\Desktop\1.htm
+|4,53,14,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+'6  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,54,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+'7  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,55,1,0,1475117242,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+'8  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,56,1,0,1475117242,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+'9  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
+|4,57,1,0,1475111617,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
 
 # 跳转列表 (从新到旧):
 -'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474852788,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
--'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
--'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
--'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
--'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
--'  82  1  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,82,1,1474852771,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+|4,39,1,0,1475981963,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
 -'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+|4,39,1,0,1475981951,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
+|4,39,1,0,1475892077,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
 -'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+|4,39,1,0,1475891380,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
 -'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
--'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
--'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
--'  1  0  D:\Documents\Doc\Python\whatsnewin9game2.py
-|4,39,1,0,1474852739,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474623087,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  C:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"C:\\Users\\Jacky\\Desktop\\1.txt"
--'  3  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,3,0,1474623001,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  c:\Users\Jacky\Desktop\1.txt
-|4,39,1,0,1474622905,"c:\\Users\\Jacky\\Desktop\\1.txt"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  1  0  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,1,0,1474622534,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
--'  28  1  D:\Documents\Doc\Python\winxin2onenote.py
-|4,39,28,1,1474622476,"D:\\Documents\\Doc\\Python\\winxin2onenote.py"
+|4,39,1,0,1475891380,"D:\\Documents\\Doc\\Python\\whatsnewin9game2.py"
+-'  10  17  C:\Users\Jacky\Desktop\1.htm
+|4,39,10,17,1475204451,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  10  17  C:\Users\Jacky\Desktop\1.htm
+|4,39,10,17,1475204451,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  10  17  C:\Users\Jacky\Desktop\1.htm
+|4,39,10,17,1475204451,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  10  17  C:\Users\Jacky\Desktop\1.htm
+|4,39,10,17,1475204451,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  10  17  C:\Users\Jacky\Desktop\1.htm
+|4,39,10,17,1475204451,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  10  17  C:\Users\Jacky\Desktop\1.htm
+|4,39,10,17,1475204451,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  10  17  C:\Users\Jacky\Desktop\1.htm
+|4,39,10,17,1475204451,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  10  17  C:\Users\Jacky\Desktop\1.htm
+|4,39,10,17,1475204451,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  8  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,8,1475204317,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  8  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,8,1475204317,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  8  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,8,1475204317,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  8  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,8,1475204317,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  8  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,8,1475204317,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  8  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,8,1475204317,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  8  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,8,1475204317,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  8  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,8,1475204317,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  7  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,7,0,1475204311,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  7  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,7,0,1475204311,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  7  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,7,0,1475204311,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  7  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,7,0,1475204311,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  7  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,7,0,1475204311,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  7  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,7,0,1475204311,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  7  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,7,0,1475204311,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  7  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,7,0,1475204311,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  12  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,12,0,1475204122,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  12  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,12,0,1475204122,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  12  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,12,0,1475204122,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  12  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,12,0,1475204122,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  12  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,12,0,1475204122,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  12  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,12,0,1475204122,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  12  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,12,0,1475204122,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  12  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,12,0,1475204122,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,0,1475204119,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,0,1475204119,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,0,1475204119,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,0,1475204119,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,0,1475204119,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,0,1475204119,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,0,1475204119,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,0,1475204119,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  20  4  C:\Users\Jacky\Desktop\1.htm
+|4,39,20,4,1475204076,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  20  4  C:\Users\Jacky\Desktop\1.htm
+|4,39,20,4,1475204076,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  20  4  C:\Users\Jacky\Desktop\1.htm
+|4,39,20,4,1475204076,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  20  4  C:\Users\Jacky\Desktop\1.htm
+|4,39,20,4,1475204076,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  20  4  C:\Users\Jacky\Desktop\1.htm
+|4,39,20,4,1475204076,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  20  4  C:\Users\Jacky\Desktop\1.htm
+|4,39,20,4,1475204076,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  20  4  C:\Users\Jacky\Desktop\1.htm
+|4,39,20,4,1475204076,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  20  4  C:\Users\Jacky\Desktop\1.htm
+|4,39,20,4,1475204076,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  1  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,1,0,1475204009,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  1  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,1,0,1475204009,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  1  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,1,0,1475204009,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  1  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,1,0,1475204009,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  1  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,1,0,1475204009,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  1  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,1,0,1475204009,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  1  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,1,0,1475204009,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  1  0  C:\Users\Jacky\Desktop\1.htm
+|4,39,1,0,1475204009,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  14  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,14,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  14  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,14,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  14  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,14,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  14  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,14,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  14  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,14,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  14  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,14,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  14  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,14,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  14  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,14,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  6  6  C:\Users\Jacky\Desktop\1.htm
+|4,39,6,6,1475202589,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  21  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,21,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  21  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,21,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  21  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,21,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  21  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,21,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  21  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,21,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
+-'  8  38  C:\Users\Jacky\Desktop\1.htm
+|4,39,8,38,1475201610,"C:\\Users\\Jacky\\Desktop\\1.htm"
 
 # 文件内的标记历史记录 (从新到旧):
 
 > D:\Documents\Doc\Python\winxin2onenote.py
-	*	1474852771	0
+	*	1475981961	0
 	"	1	0
-	^	26	33
-	.	24	0
+	.	22	0
 	+	19	0
 	+	22	0
 	+	19	12
@@ -757,31 +772,50 @@ $src
 	+	26	33
 	+	28	0
 	+	24	0
+	+	3	0
+	+	22	0
 
 > C:\Users\Jacky\__MRU_Files__
-	*	1474852770	0
-	"	6	0
-	.	69	0
-	+	762	0
-	+	761	0
-	+	760	0
-	+	700	0
-	+	639	0
-	+	578	0
-	+	517	0
-	+	455	0
-	+	393	0
-	+	330	0
-	+	266	0
-	+	202	0
-	+	136	0
-	+	69	0
+	*	1475981950	0
+	"	2	0
+	.	71	0
+	+	1994	0
+	+	1993	0
+	+	1992	0
+	+	1932	0
+	+	1871	0
+	+	1810	0
+	+	1749	0
+	+	1687	0
+	+	1625	0
+	+	1562	0
+	+	1498	0
+	+	1434	0
+	+	1368	0
+	+	1301	0
+	+	1234	0
+	+	1166	0
+	+	1098	0
+	+	1030	0
+	+	962	0
+	+	894	0
+	+	826	0
+	+	758	0
+	+	690	0
+	+	622	0
+	+	554	0
+	+	485	0
+	+	416	0
+	+	347	0
+	+	278	0
+	+	209	0
+	+	140	0
+	+	71	0
 
 > D:\Documents\Doc\Python\whatsnewin9game2.py
-	*	1474852763	0
-	"	82	1
-	^	6	0
-	.	2	0
+	*	1475981946	0
+	"	1	0
+	.	11	0
 	+	83	9
 	+	83	0
 	+	83	8
@@ -790,33 +824,38 @@ $src
 	+	15	0
 	+	35	46
 	+	2	0
+	+	51	0
+	+	11	7
+	+	11	8
+	+	11	0
 
-> C:\Users\Jacky\Desktop\1.txt
-	*	1474623085	0
-	"	1	0
-	^	1	64
-	.	1	0
-	+	1	0
-	+	19	0
-	+	1	0
-	+	19	0
-	+	19	63
-	+	19	0
-	+	10	0
+> C:\Users\Jacky\Desktop\1.htm
+	*	1475204450	0
+	"	10	17
+	^	10	18
+	.	10	17
 	+	2	0
 	+	1	0
-
-> C:\Users\Jacky\Desktop\2.txt
-	*	1474623070	0
-	"	1	0
-
-> D:\Documents\Doc\Python\whatsnewin9game.py
-	*	1474622517	0
-	"	1	0
+	+	16	0
+	+	17	0
+	+	21	0
+	+	20	0
+	+	17	11
+	+	18	0
+	+	6	0
+	+	7	5
+	+	8	13
+	+	16	17
+	+	9	11
+	+	11	21
+	+	7	0
+	+	6	0
+	+	7	0
+	+	10	17
 
 > ~\_vimrc
-	*	1474621082	0
-	"	185	0
+	*	1474885714	0
+	"	48	6
 	^	81	23
 	.	21	0
 	+	5	9
@@ -896,6 +935,68 @@ $src
 	+	81	22
 	+	21	0
 
+> C:\Users\Jacky\Desktop\9game.html
+	*	1474881970	0
+	"	3	1
+	^	19	4
+	.	4	0
+	+	3	0
+	+	1	0
+	+	5	71
+	+	5	103
+	+	5	131
+	+	5	0
+	+	9	49
+	+	9	115
+	+	9	0
+	+	10	0
+	+	2	0
+	+	17	40
+	+	18	30
+	+	3	0
+	+	4	0
+
+> C:\Users\Jacky\Desktop\xx.ahk
+	*	1474881900	0
+	"	1	0
+
+> C:\Users\Jacky\NERD_tree_1
+	*	1474881898	0
+	"	14	0
+	.	1	0
+	+	1	0
+
+> ~\buffer.md
+	*	1474880346	0
+	"	6	0
+	^	6	3
+	.	6	0
+	+	1	10
+	+	6	0
+
+> C:\Users\Jacky\Desktop\1.txt
+	*	1474623085	0
+	"	1	0
+	^	1	64
+	.	1	0
+	+	1	0
+	+	19	0
+	+	1	0
+	+	19	0
+	+	19	63
+	+	19	0
+	+	10	0
+	+	2	0
+	+	1	0
+
+> C:\Users\Jacky\Desktop\2.txt
+	*	1474623070	0
+	"	1	0
+
+> D:\Documents\Doc\Python\whatsnewin9game.py
+	*	1474622517	0
+	"	1	0
+
 > D:\Documents\Doc\Python\baidujs.py
 	*	1474620601	0
 	"	1	0
@@ -903,12 +1004,6 @@ $src
 > ~\_viminfo
 	*	1474620570	0
 	"	1	0
-
-> C:\Users\Jacky\NERD_tree_1
-	*	1474619863	0
-	"	3	1
-	.	1	0
-	+	1	0
 
 > ~\back\_vimrc2
 	*	1474619752	0
@@ -921,14 +1016,6 @@ $src
 > C:\Program Files (x86)\Vim\vim80\doc\map.txt
 	*	1474618747	0
 	"	537	5
-
-> c:\Users\Jacky\Desktop\1.htm
-	*	1474618562	0
-	"	1	0
-	^	1	0
-	.	1	0
-	+	2	0
-	+	1	0
 
 > ~\_vimrc2
 	*	1474618039	0
@@ -1400,28 +1487,6 @@ $src
 	.	33	0
 	+	33	0
 
-> C:/Users/Jacky/Desktop/9game.html
-	"	3	0
-	^	19	4
-	.	4	0
-	+	3	0
-	+	1	0
-	+	5	71
-	+	5	103
-	+	5	131
-	+	5	0
-	+	5	0
-	+	9	49
-	+	9	115
-	+	9	0
-	+	10	0
-	+	10	0
-	+	2	0
-	+	17	40
-	+	18	30
-	+	3	0
-	+	4	0
-
 > d:/Documents/Doc/Python/9.css
 	"	46	0
 	^	20	15
@@ -1797,9 +1862,3 @@ $src
 
 > D:\Vim\vim74\doc\eval.txt
 	"	7310	7
-
-> C:\Users\Jacky\Desktop\help tab
-	"	1	0
-
-> C:\Users\Jacky\Desktop\help nnomap
-	"	1	0
